@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/estilopractica.css">
+   
+</head>
+<body>
+    <div>
+    <h1>Registro Pacientes con Covid</h1>
+    <div class="contenedorprincipal">
+        <form action="registros.html">
+            
+            <fieldset>
+                <legend>Datos Personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="apellido">Apellidos:</label>
+            <input type="text" name="apellido" id="apellido">
+            <label for="sexo">Sexo:</label>
+            Hombre<input type="radio" name="sexo" id="sexo"> 
+            Mujer<input type="radio" name="sexo" id="sexo">
+            <br><br><label for="sexo">Fecha Nacimiento:</label>
+            <input type="date" name="fecnac" id="fecnac">
+            <label for="sexo">Direccion:</label>
+            <textarea name="direccion" id="direccion" cols="30" rows="5"></textarea>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos Extras</legend>
+            <label for="sexo">Contactos con alguien enfermo:</label>
+            <br>
+            Si<input type="checkbox" name="si" id="si">
+            No<input type="checkbox" name="no" id="no">
+            Posiblemente<input type="checkbox" name="posible" id="posible">
+            <br>
+            <label for="sexo">Estuvo enfermo antes:</label>
+            <br>
+            Si<input type="radio" name="antes" id="antes"> 
+            No<input type="radio" name="antes" id="antes">
+            <br>
+            <label for="sexo">Enfermedades de base:</label>
+            <br>
+            Diabetes<input type="checkbox" name="si" id="si">
+            Enfermedad renal<input type="checkbox" name="no" id="no">
+            Enfermedad hepatica<input type="checkbox" name="si" id="si">
+            Otro<input type="checkbox" name="si" id="si">
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos Generados</legend>
+            <label for="sexo">Temperatura:</label>
+            <input type="text" name="temp" id="temp">
+            <label for="sexo">Tipo Examen:</label>
+            <select name="" id="">
+                <option value="">Isopado</option>
+                <option value="">Sangre</option>
+                <option value="">otro</option>
+            </select>
+        </fieldset>
+        <div class="botonesEnvio">
+        <input type="submit" id="enviar" value="Enviar">
+        <input type="submit" id="cancelar" value="Cancelar">
+        </div>
+        </form>
+    </div>
+    
+</div>
+
+</body>
+</html>
