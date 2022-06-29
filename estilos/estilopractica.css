@@ -36,6 +36,17 @@ input[type=text], input[type=password],input[type=date],textarea,select {
 /*input[type=submit].Enviar{
     width: 50%;
 }*/
+button{
+  background-color: #0452aa;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 15px;
+  font-size: 17px;
+}
 input[type=submit] {
   background-color: #0452aa;
   color: white;
